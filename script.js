@@ -9,8 +9,7 @@ if (docHeight != 0) {
 }
 window.addEventListener("scroll", () => {
   scroll = docElem.scrollTop;
-  console.log(scroll);
-
+// console.log(scroll);
   btn.className = scroll > offset ? "visible" : "";
 });
 
